@@ -12,6 +12,9 @@ COMMENT=	Web-based Audio file manager
 
 LICENSE=	AGPLv3
 
+RUN_DEPENDS=	composer:${PORTSDIR}/devel/php-composer \
+		git:${PORTSDIR}/devel/git
+
 USE_GITHUB=	yes
 GH_ACCOUNT=	ampache
 GH_TAGNAME=	${PORTVERSION}
@@ -40,6 +43,7 @@ do-install:
 .for doc in ${PORTDOCS}
 	${INSTALL_DATA} ${WRKSRC}/${doc} ${STAGEDIR}${DOCSDIR}
 .endfor
+	(cd ${WRKSRC} && composer install --prefer-source --no-interaction)
 	(cd ${WRKSRC} && ${COPYTREE_SHARE} \* ${STAGEDIR}${WWWDIR} "! -name *.orig")
 
 .include <bsd.port.mk>
