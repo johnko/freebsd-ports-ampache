@@ -19,7 +19,7 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	ampache
 GH_TAGNAME=	${PORTVERSION}
 
-USE_PHP=	mysql pcre session iconv hash gettext mbstring filter xml
+USE_PHP=	mysql pcre session iconv hash gettext mbstring filter xml pdo pdo_mysql
 WANT_PHP_WEB=	yes
 
 NO_BUILD=	yes
