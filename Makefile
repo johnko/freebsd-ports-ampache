@@ -10,6 +10,8 @@ MASTER_SITES=	GH
 MAINTAINER=	git@johnko.ca
 COMMENT=	Web-based Audio file manager
 
+LICENSE=	AGPLv3
+
 USE_GITHUB=	yes
 GH_ACCOUNT=	ampache
 GH_TAGNAME=	${PORTVERSION}
@@ -27,7 +29,7 @@ PLIST_SUB=	WWWDIR=${WWWDIR} \
 		WWWOWN=${WWWOWN} \
 		WWWGRP=${WWWGRP}
 
-PORTDOCS=	CHANGELOG README MIGRATION INSTALL
+PORTDOCS=	README.md
 
 OPTIONS_DEFINE=	DOCS
 
@@ -36,7 +38,7 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/docs/man/man1/ampache.1 ${STAGEDIR}${MAN1PREFIX}/man/man1
 	${MKDIR} ${STAGEDIR}${DOCSDIR}
 .for doc in ${PORTDOCS}
-	${INSTALL_DATA} ${WRKSRC}/docs/${doc} ${STAGEDIR}${DOCSDIR}
+	${INSTALL_DATA} ${WRKSRC}/${doc} ${STAGEDIR}${DOCSDIR}
 .endfor
 	(cd ${WRKSRC} && ${COPYTREE_SHARE} \* ${STAGEDIR}${WWWDIR} "! -name *.orig")
 
