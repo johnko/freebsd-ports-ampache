@@ -1,0 +1,5461 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- ViewVC :: http://www.viewvc.org/ -->
+<head>
+<title>[ports] Contents of /head/audio/ampache/pkg-plist</title>
+<meta name="generator" content="ViewVC 1.1.24" />
+<link rel="shortcut icon" href="/*docroot*/images/favicon.ico" />
+<link rel="stylesheet" href="/*docroot*/styles.css" type="text/css" />
+
+</head>
+<body>
+<div class="vc_navheader">
+<table><tr>
+<td><strong><a href="/"><span class="pathdiv">/</span></a><a href="/ports/?pathrev=402561">[ports]</a><span class="pathdiv">/</span><a href="/ports/head/?pathrev=402561">head</a><span class="pathdiv">/</span><a href="/ports/head/audio/?pathrev=402561">audio</a><span class="pathdiv">/</span><a href="/ports/head/audio/ampache/?pathrev=402561">ampache</a><span class="pathdiv">/</span><a href="/ports/head/audio/ampache/pkg-plist?view=log&amp;pathrev=402561">pkg-plist</a></strong></td>
+<td style="text-align: right;"></td>
+</tr></table>
+</div>
+<div style="float: right; padding: 5px;"><a href="http://www.viewvc.org/" title="ViewVC Home"><img src="/*docroot*/images/viewvc-logo.png" alt="ViewVC logotype" width="240" height="70" /></a></div>
+<h1>Contents of /head/audio/ampache/pkg-plist</h1>
+
+<p style="margin:0;">
+
+<a href="/ports/head/audio/ampache/?pathrev=402561"><img src="/*docroot*/images/back_small.png" class="vc_icon" alt="Parent Directory" /> Parent Directory</a>
+
+| <a href="/ports/head/audio/ampache/pkg-plist?view=log&amp;pathrev=402561"><img src="/*docroot*/images/log.png" class="vc_icon" alt="Revision Log" /> Revision Log</a>
+
+
+
+
+</p>
+
+<hr />
+<div class="vc_summary">
+Revision <a href="/ports?view=revision&amp;revision=371234"><strong>371234</strong></a> -
+(<a href="/ports/head/audio/ampache/pkg-plist?annotate=371234&amp;pathrev=402561"><strong>show annotations</strong></a>)
+(<a href="/ports/head/audio/ampache/pkg-plist?revision=371234&amp;view=co&amp;pathrev=402561"><strong>download</strong></a>)
+
+
+<br /><em>Mon Oct 20 06:35:58 2014 UTC</em>
+(14 months ago)
+by <em>bapt</em>
+
+
+
+
+
+
+<br />File MIME type: text/plain
+
+
+<br />File size: 24989 byte(s)
+
+
+
+
+
+
+<pre class="vc_log">Cleanup plist
+
+</pre>
+
+</div>
+
+
+
+
+
+
+<div id="vc_file">
+<table cellspacing="0" cellpadding="0">
+
+
+
+
+
+
+
+
+<tr class="vc_row_odd" id="l1">
+<td class="vc_file_line_number"><a href="#l1">1</a></td>
+
+<td class="vc_file_line_text">@owner %%WWWOWN%%</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l2">
+<td class="vc_file_line_number"><a href="#l2">2</a></td>
+
+<td class="vc_file_line_text">@group %%WWWGRP%%</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l3">
+<td class="vc_file_line_number"><a href="#l3">3</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/admin/access.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l4">
+<td class="vc_file_line_number"><a href="#l4">4</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/admin/catalog.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l5">
+<td class="vc_file_line_number"><a href="#l5">5</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/admin/duplicates.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l6">
+<td class="vc_file_line_number"><a href="#l6">6</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/admin/export.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l7">
+<td class="vc_file_line_number"><a href="#l7">7</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/admin/flag.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l8">
+<td class="vc_file_line_number"><a href="#l8">8</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/admin/index.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l9">
+<td class="vc_file_line_number"><a href="#l9">9</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/admin/mail.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l10">
+<td class="vc_file_line_number"><a href="#l10">10</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/admin/modules.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l11">
+<td class="vc_file_line_number"><a href="#l11">11</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/admin/shout.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l12">
+<td class="vc_file_line_number"><a href="#l12">12</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/admin/system.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l13">
+<td class="vc_file_line_number"><a href="#l13">13</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/admin/users.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l14">
+<td class="vc_file_line_number"><a href="#l14">14</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/albums.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l15">
+<td class="vc_file_line_number"><a href="#l15">15</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/artists.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l16">
+<td class="vc_file_line_number"><a href="#l16">16</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/batch.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l17">
+<td class="vc_file_line_number"><a href="#l17">17</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/bin/.htaccess</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l18">
+<td class="vc_file_line_number"><a href="#l18">18</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/bin/catalog_update.inc</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l19">
+<td class="vc_file_line_number"><a href="#l19">19</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/bin/delete_disabled.inc</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l20">
+<td class="vc_file_line_number"><a href="#l20">20</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/bin/dump_album_art.inc</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l21">
+<td class="vc_file_line_number"><a href="#l21">21</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/bin/fix_filenames.inc</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l22">
+<td class="vc_file_line_number"><a href="#l22">22</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/bin/migrate_config.inc</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l23">
+<td class="vc_file_line_number"><a href="#l23">23</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/bin/print_tags.inc</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l24">
+<td class="vc_file_line_number"><a href="#l24">24</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/bin/sort_files.inc</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l25">
+<td class="vc_file_line_number"><a href="#l25">25</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/bin/write_playlists.inc</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l26">
+<td class="vc_file_line_number"><a href="#l26">26</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/bin/write_tags.inc</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l27">
+<td class="vc_file_line_number"><a href="#l27">27</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/browse.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l28">
+<td class="vc_file_line_number"><a href="#l28">28</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/config/.htaccess</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l29">
+<td class="vc_file_line_number"><a href="#l29">29</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/config/ampache.cfg.php.dist</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l30">
+<td class="vc_file_line_number"><a href="#l30">30</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/config/motd.php.dist</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l31">
+<td class="vc_file_line_number"><a href="#l31">31</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/config/registration_agreement.php.dist</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l32">
+<td class="vc_file_line_number"><a href="#l32">32</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/democratic.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l33">
+<td class="vc_file_line_number"><a href="#l33">33</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/docs/CHANGELOG</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l34">
+<td class="vc_file_line_number"><a href="#l34">34</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/docs/GPL-LICENSE</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l35">
+<td class="vc_file_line_number"><a href="#l35">35</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/docs/INSTALL</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l36">
+<td class="vc_file_line_number"><a href="#l36">36</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/docs/MIGRATION</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l37">
+<td class="vc_file_line_number"><a href="#l37">37</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/docs/README</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l38">
+<td class="vc_file_line_number"><a href="#l38">38</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/favicon.ico</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l39">
+<td class="vc_file_line_number"><a href="#l39">39</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/flag.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l40">
+<td class="vc_file_line_number"><a href="#l40">40</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/genre.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l41">
+<td class="vc_file_line_number"><a href="#l41">41</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/image.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l42">
+<td class="vc_file_line_number"><a href="#l42">42</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/ampache.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l43">
+<td class="vc_file_line_number"><a href="#l43">43</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/blank-pixel.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l44">
+<td class="vc_file_line_number"><a href="#l44">44</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/blankalbum.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l45">
+<td class="vc_file_line_number"><a href="#l45">45</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/blankalbum.jpg</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l46">
+<td class="vc_file_line_number"><a href="#l46">46</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_add.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l47">
+<td class="vc_file_line_number"><a href="#l47">47</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_add_key.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l48">
+<td class="vc_file_line_number"><a href="#l48">48</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_add_tag.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l49">
+<td class="vc_file_line_number"><a href="#l49">49</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_add_user.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l50">
+<td class="vc_file_line_number"><a href="#l50">50</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_admin.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l51">
+<td class="vc_file_line_number"><a href="#l51">51</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_all.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l52">
+<td class="vc_file_line_number"><a href="#l52">52</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_ampache.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l53">
+<td class="vc_file_line_number"><a href="#l53">53</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_batch_download.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l54">
+<td class="vc_file_line_number"><a href="#l54">54</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_cog.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l55">
+<td class="vc_file_line_number"><a href="#l55">55</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_comment.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l56">
+<td class="vc_file_line_number"><a href="#l56">56</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_delete.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l57">
+<td class="vc_file_line_number"><a href="#l57">57</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_disable.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l58">
+<td class="vc_file_line_number"><a href="#l58">58</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_download.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l59">
+<td class="vc_file_line_number"><a href="#l59">59</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_edit.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l60">
+<td class="vc_file_line_number"><a href="#l60">60</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_enable.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l61">
+<td class="vc_file_line_number"><a href="#l61">61</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_feed.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l62">
+<td class="vc_file_line_number"><a href="#l62">62</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_flag.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l63">
+<td class="vc_file_line_number"><a href="#l63">63</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_flag_off.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l64">
+<td class="vc_file_line_number"><a href="#l64">64</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_home.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l65">
+<td class="vc_file_line_number"><a href="#l65">65</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_link.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l66">
+<td class="vc_file_line_number"><a href="#l66">66</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_lock.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l67">
+<td class="vc_file_line_number"><a href="#l67">67</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_logout.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l68">
+<td class="vc_file_line_number"><a href="#l68">68</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_money.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l69">
+<td class="vc_file_line_number"><a href="#l69">69</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_next.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l70">
+<td class="vc_file_line_number"><a href="#l70">70</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_next_hover.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l71">
+<td class="vc_file_line_number"><a href="#l71">71</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_pause.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l72">
+<td class="vc_file_line_number"><a href="#l72">72</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_pause_hover.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l73">
+<td class="vc_file_line_number"><a href="#l73">73</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_play.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l74">
+<td class="vc_file_line_number"><a href="#l74">74</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_play_hover.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l75">
+<td class="vc_file_line_number"><a href="#l75">75</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_playlist_add.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l76">
+<td class="vc_file_line_number"><a href="#l76">76</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_plugin.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l77">
+<td class="vc_file_line_number"><a href="#l77">77</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_preferences.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l78">
+<td class="vc_file_line_number"><a href="#l78">78</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_prev.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l79">
+<td class="vc_file_line_number"><a href="#l79">79</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_prev_hover.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l80">
+<td class="vc_file_line_number"><a href="#l80">80</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_random.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l81">
+<td class="vc_file_line_number"><a href="#l81">81</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_server_lightning.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l82">
+<td class="vc_file_line_number"><a href="#l82">82</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_statistics.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l83">
+<td class="vc_file_line_number"><a href="#l83">83</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_stop.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l84">
+<td class="vc_file_line_number"><a href="#l84">84</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_stop_hover.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l85">
+<td class="vc_file_line_number"><a href="#l85">85</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_tick.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l86">
+<td class="vc_file_line_number"><a href="#l86">86</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_view.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l87">
+<td class="vc_file_line_number"><a href="#l87">87</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_volumedn.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l88">
+<td class="vc_file_line_number"><a href="#l88">88</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_volumemute.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l89">
+<td class="vc_file_line_number"><a href="#l89">89</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_volumeup.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l90">
+<td class="vc_file_line_number"><a href="#l90">90</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_wand.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l91">
+<td class="vc_file_line_number"><a href="#l91">91</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/icon_world_link.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l92">
+<td class="vc_file_line_number"><a href="#l92">92</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/ratings/star_rating.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l93">
+<td class="vc_file_line_number"><a href="#l93">93</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/ratings/x.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l94">
+<td class="vc_file_line_number"><a href="#l94">94</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/ratings/x_off.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l95">
+<td class="vc_file_line_number"><a href="#l95">95</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/images/top_bg.jpg</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l96">
+<td class="vc_file_line_number"><a href="#l96">96</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/index.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l97">
+<td class="vc_file_line_number"><a href="#l97">97</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/install.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l98">
+<td class="vc_file_line_number"><a href="#l98">98</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/batch.lib.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l99">
+<td class="vc_file_line_number"><a href="#l99">99</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/access.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l100">
+<td class="vc_file_line_number"><a href="#l100">100</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/ajax.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l101">
+<td class="vc_file_line_number"><a href="#l101">101</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/album.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l102">
+<td class="vc_file_line_number"><a href="#l102">102</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/ampachemail.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l103">
+<td class="vc_file_line_number"><a href="#l103">103</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/ampacherss.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l104">
+<td class="vc_file_line_number"><a href="#l104">104</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/api.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l105">
+<td class="vc_file_line_number"><a href="#l105">105</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/artist.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l106">
+<td class="vc_file_line_number"><a href="#l106">106</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/browse.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l107">
+<td class="vc_file_line_number"><a href="#l107">107</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/catalog.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l108">
+<td class="vc_file_line_number"><a href="#l108">108</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/config.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l109">
+<td class="vc_file_line_number"><a href="#l109">109</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/core.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l110">
+<td class="vc_file_line_number"><a href="#l110">110</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/database_object.abstract.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l111">
+<td class="vc_file_line_number"><a href="#l111">111</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/dba.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l112">
+<td class="vc_file_line_number"><a href="#l112">112</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/democratic.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l113">
+<td class="vc_file_line_number"><a href="#l113">113</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/error.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l114">
+<td class="vc_file_line_number"><a href="#l114">114</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/flag.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l115">
+<td class="vc_file_line_number"><a href="#l115">115</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/localplay.abstract.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l116">
+<td class="vc_file_line_number"><a href="#l116">116</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/localplay.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l117">
+<td class="vc_file_line_number"><a href="#l117">117</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/media.interface.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l118">
+<td class="vc_file_line_number"><a href="#l118">118</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/playlist.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l119">
+<td class="vc_file_line_number"><a href="#l119">119</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/plugin.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l120">
+<td class="vc_file_line_number"><a href="#l120">120</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/preference.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l121">
+<td class="vc_file_line_number"><a href="#l121">121</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/query.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l122">
+<td class="vc_file_line_number"><a href="#l122">122</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/radio.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l123">
+<td class="vc_file_line_number"><a href="#l123">123</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/random.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l124">
+<td class="vc_file_line_number"><a href="#l124">124</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/rating.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l125">
+<td class="vc_file_line_number"><a href="#l125">125</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/registration.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l126">
+<td class="vc_file_line_number"><a href="#l126">126</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/scrobbler.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l127">
+<td class="vc_file_line_number"><a href="#l127">127</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/shoutbox.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l128">
+<td class="vc_file_line_number"><a href="#l128">128</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/song.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l129">
+<td class="vc_file_line_number"><a href="#l129">129</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/stats.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l130">
+<td class="vc_file_line_number"><a href="#l130">130</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/stream.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l131">
+<td class="vc_file_line_number"><a href="#l131">131</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/tag.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l132">
+<td class="vc_file_line_number"><a href="#l132">132</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/tmpplaylist.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l133">
+<td class="vc_file_line_number"><a href="#l133">133</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/update.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l134">
+<td class="vc_file_line_number"><a href="#l134">134</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/user.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l135">
+<td class="vc_file_line_number"><a href="#l135">135</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/vainfo.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l136">
+<td class="vc_file_line_number"><a href="#l136">136</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/vauth.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l137">
+<td class="vc_file_line_number"><a href="#l137">137</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/video.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l138">
+<td class="vc_file_line_number"><a href="#l138">138</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/xmldata.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l139">
+<td class="vc_file_line_number"><a href="#l139">139</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/xmlrpcclient.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l140">
+<td class="vc_file_line_number"><a href="#l140">140</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/class/xmlrpcserver.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l141">
+<td class="vc_file_line_number"><a href="#l141">141</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/debug.lib.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l142">
+<td class="vc_file_line_number"><a href="#l142">142</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/general.lib.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l143">
+<td class="vc_file_line_number"><a href="#l143">143</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/gettext.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l144">
+<td class="vc_file_line_number"><a href="#l144">144</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/init.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l145">
+<td class="vc_file_line_number"><a href="#l145">145</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/install.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l146">
+<td class="vc_file_line_number"><a href="#l146">146</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/javascript-base.js</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l147">
+<td class="vc_file_line_number"><a href="#l147">147</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/log.lib.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l148">
+<td class="vc_file_line_number"><a href="#l148">148</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/preferences.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l149">
+<td class="vc_file_line_number"><a href="#l149">149</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/rating.lib.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l150">
+<td class="vc_file_line_number"><a href="#l150">150</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/search.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l151">
+<td class="vc_file_line_number"><a href="#l151">151</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/themes.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l152">
+<td class="vc_file_line_number"><a href="#l152">152</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/ui.lib.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l153">
+<td class="vc_file_line_number"><a href="#l153">153</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/lib/xmlrpc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l154">
+<td class="vc_file_line_number"><a href="#l154">154</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/base/LANGLIST</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l155">
+<td class="vc_file_line_number"><a href="#l155">155</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/base/TRANSLATIONS</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l156">
+<td class="vc_file_line_number"><a href="#l156">156</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/base/gather-messages.sh</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l157">
+<td class="vc_file_line_number"><a href="#l157">157</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/base/messages.pot</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l158">
+<td class="vc_file_line_number"><a href="#l158">158</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/base/translation-words.txt</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l159">
+<td class="vc_file_line_number"><a href="#l159">159</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/ca_ES/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l160">
+<td class="vc_file_line_number"><a href="#l160">160</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/ca_ES/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l161">
+<td class="vc_file_line_number"><a href="#l161">161</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/cs_CZ/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l162">
+<td class="vc_file_line_number"><a href="#l162">162</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/cs_CZ/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l163">
+<td class="vc_file_line_number"><a href="#l163">163</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/de_DE/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l164">
+<td class="vc_file_line_number"><a href="#l164">164</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/de_DE/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l165">
+<td class="vc_file_line_number"><a href="#l165">165</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/el_GR/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l166">
+<td class="vc_file_line_number"><a href="#l166">166</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/el_GR/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l167">
+<td class="vc_file_line_number"><a href="#l167">167</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/en_GB/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l168">
+<td class="vc_file_line_number"><a href="#l168">168</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/en_GB/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l169">
+<td class="vc_file_line_number"><a href="#l169">169</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/es_ES/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l170">
+<td class="vc_file_line_number"><a href="#l170">170</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/es_ES/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l171">
+<td class="vc_file_line_number"><a href="#l171">171</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/fr_FR/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l172">
+<td class="vc_file_line_number"><a href="#l172">172</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/fr_FR/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l173">
+<td class="vc_file_line_number"><a href="#l173">173</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/it_IT/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l174">
+<td class="vc_file_line_number"><a href="#l174">174</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/it_IT/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l175">
+<td class="vc_file_line_number"><a href="#l175">175</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/ja_JP/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l176">
+<td class="vc_file_line_number"><a href="#l176">176</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/ja_JP/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l177">
+<td class="vc_file_line_number"><a href="#l177">177</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/nb_NO/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l178">
+<td class="vc_file_line_number"><a href="#l178">178</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/nb_NO/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l179">
+<td class="vc_file_line_number"><a href="#l179">179</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/nl_NL/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l180">
+<td class="vc_file_line_number"><a href="#l180">180</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/nl_NL/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l181">
+<td class="vc_file_line_number"><a href="#l181">181</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/pl_PL/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l182">
+<td class="vc_file_line_number"><a href="#l182">182</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/pl_PL/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l183">
+<td class="vc_file_line_number"><a href="#l183">183</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/ru_RU/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l184">
+<td class="vc_file_line_number"><a href="#l184">184</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/ru_RU/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l185">
+<td class="vc_file_line_number"><a href="#l185">185</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/sv_SE/LC_MESSAGES/messages.mo</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l186">
+<td class="vc_file_line_number"><a href="#l186">186</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/locale/sv_SE/LC_MESSAGES/messages.po</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l187">
+<td class="vc_file_line_number"><a href="#l187">187</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/localplay.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l188">
+<td class="vc_file_line_number"><a href="#l188">188</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/login.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l189">
+<td class="vc_file_line_number"><a href="#l189">189</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/logout.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l190">
+<td class="vc_file_line_number"><a href="#l190">190</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/archive/archive.lib.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l191">
+<td class="vc_file_line_number"><a href="#l191">191</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/captcha/FreeMono-Medium.ttf</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l192">
+<td class="vc_file_line_number"><a href="#l192">192</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/captcha/captcha.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l193">
+<td class="vc_file_line_number"><a href="#l193">193</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/emulator/gettext.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l194">
+<td class="vc_file_line_number"><a href="#l194">194</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/flash/LICENSE</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l195">
+<td class="vc_file_line_number"><a href="#l195">195</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/flash/Original/skin.xml</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l196">
+<td class="vc_file_line_number"><a href="#l196">196</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/flash/crossdomain.xml</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l197">
+<td class="vc_file_line_number"><a href="#l197">197</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/flash/xspf_jukebox.fla</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l198">
+<td class="vc_file_line_number"><a href="#l198">198</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/flash/xspf_jukebox.swf</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l199">
+<td class="vc_file_line_number"><a href="#l199">199</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/flash/xspf_player.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l200">
+<td class="vc_file_line_number"><a href="#l200">200</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/docs/changelog.txt</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l201">
+<td class="vc_file_line_number"><a href="#l201">201</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/docs/dependencies.txt</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l202">
+<td class="vc_file_line_number"><a href="#l202">202</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/docs/license.commercial.txt</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l203">
+<td class="vc_file_line_number"><a href="#l203">203</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/docs/license.txt</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l204">
+<td class="vc_file_line_number"><a href="#l204">204</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/docs/readme.txt</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l205">
+<td class="vc_file_line_number"><a href="#l205">205</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/docs/readme.windows.txt</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l206">
+<td class="vc_file_line_number"><a href="#l206">206</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/docs/structure.txt</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l207">
+<td class="vc_file_line_number"><a href="#l207">207</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/extension.cache.dbm.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l208">
+<td class="vc_file_line_number"><a href="#l208">208</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/extension.cache.mysql.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l209">
+<td class="vc_file_line_number"><a href="#l209">209</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/getid3.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l210">
+<td class="vc_file_line_number"><a href="#l210">210</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.archive.gzip.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l211">
+<td class="vc_file_line_number"><a href="#l211">211</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.archive.szip.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l212">
+<td class="vc_file_line_number"><a href="#l212">212</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.archive.tar.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l213">
+<td class="vc_file_line_number"><a href="#l213">213</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.archive.zip.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l214">
+<td class="vc_file_line_number"><a href="#l214">214</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio-video.asf.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l215">
+<td class="vc_file_line_number"><a href="#l215">215</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio-video.flv.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l216">
+<td class="vc_file_line_number"><a href="#l216">216</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio-video.mpeg.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l217">
+<td class="vc_file_line_number"><a href="#l217">217</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio-video.nsv.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l218">
+<td class="vc_file_line_number"><a href="#l218">218</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio-video.quicktime.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l219">
+<td class="vc_file_line_number"><a href="#l219">219</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio-video.real.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l220">
+<td class="vc_file_line_number"><a href="#l220">220</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio-video.riff.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l221">
+<td class="vc_file_line_number"><a href="#l221">221</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio-video.swf.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l222">
+<td class="vc_file_line_number"><a href="#l222">222</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.aac_adif.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l223">
+<td class="vc_file_line_number"><a href="#l223">223</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.aac_adts.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l224">
+<td class="vc_file_line_number"><a href="#l224">224</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.ac3.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l225">
+<td class="vc_file_line_number"><a href="#l225">225</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.au.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l226">
+<td class="vc_file_line_number"><a href="#l226">226</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.avr.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l227">
+<td class="vc_file_line_number"><a href="#l227">227</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.bonk.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l228">
+<td class="vc_file_line_number"><a href="#l228">228</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.dts.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l229">
+<td class="vc_file_line_number"><a href="#l229">229</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.la.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l230">
+<td class="vc_file_line_number"><a href="#l230">230</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.lpac.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l231">
+<td class="vc_file_line_number"><a href="#l231">231</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.midi.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l232">
+<td class="vc_file_line_number"><a href="#l232">232</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.monkey.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l233">
+<td class="vc_file_line_number"><a href="#l233">233</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.mp3.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l234">
+<td class="vc_file_line_number"><a href="#l234">234</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.mpc7.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l235">
+<td class="vc_file_line_number"><a href="#l235">235</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.mpc8.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l236">
+<td class="vc_file_line_number"><a href="#l236">236</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.mpc_old.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l237">
+<td class="vc_file_line_number"><a href="#l237">237</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.optimfrog.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l238">
+<td class="vc_file_line_number"><a href="#l238">238</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.rkau.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l239">
+<td class="vc_file_line_number"><a href="#l239">239</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.shorten.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l240">
+<td class="vc_file_line_number"><a href="#l240">240</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.tta.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l241">
+<td class="vc_file_line_number"><a href="#l241">241</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.voc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l242">
+<td class="vc_file_line_number"><a href="#l242">242</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.vqf.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l243">
+<td class="vc_file_line_number"><a href="#l243">243</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.wavpack.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l244">
+<td class="vc_file_line_number"><a href="#l244">244</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.audio.xiph.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l245">
+<td class="vc_file_line_number"><a href="#l245">245</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.graphic.bmp.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l246">
+<td class="vc_file_line_number"><a href="#l246">246</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.graphic.gif.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l247">
+<td class="vc_file_line_number"><a href="#l247">247</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.graphic.jpeg.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l248">
+<td class="vc_file_line_number"><a href="#l248">248</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.graphic.pcd.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l249">
+<td class="vc_file_line_number"><a href="#l249">249</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.graphic.png.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l250">
+<td class="vc_file_line_number"><a href="#l250">250</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.graphic.tiff.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l251">
+<td class="vc_file_line_number"><a href="#l251">251</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.lib.data_hash.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l252">
+<td class="vc_file_line_number"><a href="#l252">252</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.lib.iconv_replacement.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l253">
+<td class="vc_file_line_number"><a href="#l253">253</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.lib.image_size.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l254">
+<td class="vc_file_line_number"><a href="#l254">254</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.misc.iso.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l255">
+<td class="vc_file_line_number"><a href="#l255">255</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.tag.apetag.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l256">
+<td class="vc_file_line_number"><a href="#l256">256</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.tag.id3v1.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l257">
+<td class="vc_file_line_number"><a href="#l257">257</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.tag.id3v2.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l258">
+<td class="vc_file_line_number"><a href="#l258">258</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/module.tag.lyrics3.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l259">
+<td class="vc_file_line_number"><a href="#l259">259</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/write.apetag.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l260">
+<td class="vc_file_line_number"><a href="#l260">260</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/write.flac.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l261">
+<td class="vc_file_line_number"><a href="#l261">261</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/write.id3v1.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l262">
+<td class="vc_file_line_number"><a href="#l262">262</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/write.id3v2.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l263">
+<td class="vc_file_line_number"><a href="#l263">263</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/write.lyrics3.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l264">
+<td class="vc_file_line_number"><a href="#l264">264</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/getid3/write.vorbis.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l265">
+<td class="vc_file_line_number"><a href="#l265">265</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/horde/Browser.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l266">
+<td class="vc_file_line_number"><a href="#l266">266</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/httpq/httpqplayer.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l267">
+<td class="vc_file_line_number"><a href="#l267">267</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/infotools/AmazonSearchEngine.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l268">
+<td class="vc_file_line_number"><a href="#l268">268</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/infotools/Snoopy.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l269">
+<td class="vc_file_line_number"><a href="#l269">269</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/infotools/jamendoSearch.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l270">
+<td class="vc_file_line_number"><a href="#l270">270</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/infotools/lastfm.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l271">
+<td class="vc_file_line_number"><a href="#l271">271</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/infotools/mp3tunes.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l272">
+<td class="vc_file_line_number"><a href="#l272">272</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/kajax/README</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l273">
+<td class="vc_file_line_number"><a href="#l273">273</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/kajax/ajax.js</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l274">
+<td class="vc_file_line_number"><a href="#l274">274</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/localplay/httpq.controller.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l275">
+<td class="vc_file_line_number"><a href="#l275">275</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/localplay/mpd.controller.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l276">
+<td class="vc_file_line_number"><a href="#l276">276</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/localplay/shoutcast.controller.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l277">
+<td class="vc_file_line_number"><a href="#l277">277</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/mpd/CHANGELOG</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l278">
+<td class="vc_file_line_number"><a href="#l278">278</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/mpd/README</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l279">
+<td class="vc_file_line_number"><a href="#l279">279</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/mpd/USAGE</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l280">
+<td class="vc_file_line_number"><a href="#l280">280</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/mpd/mpd.class.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l281">
+<td class="vc_file_line_number"><a href="#l281">281</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/nusoap/changelog</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l282">
+<td class="vc_file_line_number"><a href="#l282">282</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/nusoap/class.nusoap_base.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l283">
+<td class="vc_file_line_number"><a href="#l283">283</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/nusoap/class.soap_fault.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l284">
+<td class="vc_file_line_number"><a href="#l284">284</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/nusoap/class.soap_parser.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l285">
+<td class="vc_file_line_number"><a href="#l285">285</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/nusoap/class.soap_server.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l286">
+<td class="vc_file_line_number"><a href="#l286">286</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/nusoap/class.soap_transport_http.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l287">
+<td class="vc_file_line_number"><a href="#l287">287</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/nusoap/class.soap_val.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l288">
+<td class="vc_file_line_number"><a href="#l288">288</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/nusoap/class.soapclient.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l289">
+<td class="vc_file_line_number"><a href="#l289">289</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/nusoap/class.wsdl.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l290">
+<td class="vc_file_line_number"><a href="#l290">290</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/nusoap/class.wsdlcache.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l291">
+<td class="vc_file_line_number"><a href="#l291">291</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/nusoap/class.xmlschema.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l292">
+<td class="vc_file_line_number"><a href="#l292">292</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/nusoap/nusoap.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l293">
+<td class="vc_file_line_number"><a href="#l293">293</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/nusoap/nusoapmime.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l294">
+<td class="vc_file_line_number"><a href="#l294">294</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/pearxmlrpc/Dump.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l295">
+<td class="vc_file_line_number"><a href="#l295">295</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/pearxmlrpc/rpc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l296">
+<td class="vc_file_line_number"><a href="#l296">296</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/pearxmlrpc/server.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l297">
+<td class="vc_file_line_number"><a href="#l297">297</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/plugins/Lastfm.plugin.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l298">
+<td class="vc_file_line_number"><a href="#l298">298</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/prototype/prototype.js</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l299">
+<td class="vc_file_line_number"><a href="#l299">299</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/validatemail/validateEmail.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l300">
+<td class="vc_file_line_number"><a href="#l300">300</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/modules/validatemail/validateEmailFormat.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l301">
+<td class="vc_file_line_number"><a href="#l301">301</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/play/index.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l302">
+<td class="vc_file_line_number"><a href="#l302">302</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/playlist.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l303">
+<td class="vc_file_line_number"><a href="#l303">303</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/preferences.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l304">
+<td class="vc_file_line_number"><a href="#l304">304</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/radio.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l305">
+<td class="vc_file_line_number"><a href="#l305">305</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/random.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l306">
+<td class="vc_file_line_number"><a href="#l306">306</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/register.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l307">
+<td class="vc_file_line_number"><a href="#l307">307</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/rss.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l308">
+<td class="vc_file_line_number"><a href="#l308">308</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/search.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l309">
+<td class="vc_file_line_number"><a href="#l309">309</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/ajax.server.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l310">
+<td class="vc_file_line_number"><a href="#l310">310</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/browse.ajax.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l311">
+<td class="vc_file_line_number"><a href="#l311">311</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/democratic.ajax.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l312">
+<td class="vc_file_line_number"><a href="#l312">312</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/flag.ajax.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l313">
+<td class="vc_file_line_number"><a href="#l313">313</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/index.ajax.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l314">
+<td class="vc_file_line_number"><a href="#l314">314</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/localplay.ajax.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l315">
+<td class="vc_file_line_number"><a href="#l315">315</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/playlist.ajax.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l316">
+<td class="vc_file_line_number"><a href="#l316">316</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/random.ajax.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l317">
+<td class="vc_file_line_number"><a href="#l317">317</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/song.ajax.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l318">
+<td class="vc_file_line_number"><a href="#l318">318</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/stats.ajax.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l319">
+<td class="vc_file_line_number"><a href="#l319">319</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/stream.ajax.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l320">
+<td class="vc_file_line_number"><a href="#l320">320</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/tag.ajax.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l321">
+<td class="vc_file_line_number"><a href="#l321">321</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/xml.server.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l322">
+<td class="vc_file_line_number"><a href="#l322">322</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/server/xmlrpc.server.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l323">
+<td class="vc_file_line_number"><a href="#l323">323</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/shout.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l324">
+<td class="vc_file_line_number"><a href="#l324">324</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/song.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l325">
+<td class="vc_file_line_number"><a href="#l325">325</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/sql/ampache.sql</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l326">
+<td class="vc_file_line_number"><a href="#l326">326</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/sql/ampache40.sql</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l327">
+<td class="vc_file_line_number"><a href="#l327">327</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/stats.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l328">
+<td class="vc_file_line_number"><a href="#l328">328</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/stream.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l329">
+<td class="vc_file_line_number"><a href="#l329">329</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/base.css</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l330">
+<td class="vc_file_line_number"><a href="#l330">330</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/csshover2.htc</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l331">
+<td class="vc_file_line_number"><a href="#l331">331</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/footer.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l332">
+<td class="vc_file_line_number"><a href="#l332">332</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/header.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l333">
+<td class="vc_file_line_number"><a href="#l333">333</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/install.css</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l334">
+<td class="vc_file_line_number"><a href="#l334">334</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/javascript_refresh.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l335">
+<td class="vc_file_line_number"><a href="#l335">335</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/list_header.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l336">
+<td class="vc_file_line_number"><a href="#l336">336</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/print.css</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l337">
+<td class="vc_file_line_number"><a href="#l337">337</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/rightbar.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l338">
+<td class="vc_file_line_number"><a href="#l338">338</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_access_list.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l339">
+<td class="vc_file_line_number"><a href="#l339">339</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_account.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l340">
+<td class="vc_file_line_number"><a href="#l340">340</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_add_access.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l341">
+<td class="vc_file_line_number"><a href="#l341">341</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_add_access_current.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l342">
+<td class="vc_file_line_number"><a href="#l342">342</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_add_access_local.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l343">
+<td class="vc_file_line_number"><a href="#l343">343</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_add_access_rpc.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l344">
+<td class="vc_file_line_number"><a href="#l344">344</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_add_catalog.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l345">
+<td class="vc_file_line_number"><a href="#l345">345</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_add_live_stream.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l346">
+<td class="vc_file_line_number"><a href="#l346">346</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_add_playlist.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l347">
+<td class="vc_file_line_number"><a href="#l347">347</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_add_shout.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l348">
+<td class="vc_file_line_number"><a href="#l348">348</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_add_user.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l349">
+<td class="vc_file_line_number"><a href="#l349">349</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_adds_catalog.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l350">
+<td class="vc_file_line_number"><a href="#l350">350</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_admin_info.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l351">
+<td class="vc_file_line_number"><a href="#l351">351</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_admin_tools.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l352">
+<td class="vc_file_line_number"><a href="#l352">352</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_album.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l353">
+<td class="vc_file_line_number"><a href="#l353">353</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_album_art.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l354">
+<td class="vc_file_line_number"><a href="#l354">354</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_album_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l355">
+<td class="vc_file_line_number"><a href="#l355">355</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_albums.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l356">
+<td class="vc_file_line_number"><a href="#l356">356</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_all_popular.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l357">
+<td class="vc_file_line_number"><a href="#l357">357</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_alphabet_form.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l358">
+<td class="vc_file_line_number"><a href="#l358">358</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_artist.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l359">
+<td class="vc_file_line_number"><a href="#l359">359</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_artist_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l360">
+<td class="vc_file_line_number"><a href="#l360">360</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_artists.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l361">
+<td class="vc_file_line_number"><a href="#l361">361</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_big_art.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l362">
+<td class="vc_file_line_number"><a href="#l362">362</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_box_bottom.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l363">
+<td class="vc_file_line_number"><a href="#l363">363</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_box_top.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l364">
+<td class="vc_file_line_number"><a href="#l364">364</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_catalog_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l365">
+<td class="vc_file_line_number"><a href="#l365">365</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_catalogs.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l366">
+<td class="vc_file_line_number"><a href="#l366">366</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_clean_catalog.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l367">
+<td class="vc_file_line_number"><a href="#l367">367</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_confirmation.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l368">
+<td class="vc_file_line_number"><a href="#l368">368</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_create_democratic.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l369">
+<td class="vc_file_line_number"><a href="#l369">369</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_debug.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l370">
+<td class="vc_file_line_number"><a href="#l370">370</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_democratic.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l371">
+<td class="vc_file_line_number"><a href="#l371">371</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_democratic_playlist.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l372">
+<td class="vc_file_line_number"><a href="#l372">372</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_denied.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l373">
+<td class="vc_file_line_number"><a href="#l373">373</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_disabled_songs.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l374">
+<td class="vc_file_line_number"><a href="#l374">374</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_duplicate.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l375">
+<td class="vc_file_line_number"><a href="#l375">375</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_duplicates.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l376">
+<td class="vc_file_line_number"><a href="#l376">376</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_dynamic.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l377">
+<td class="vc_file_line_number"><a href="#l377">377</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_edit_access.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l378">
+<td class="vc_file_line_number"><a href="#l378">378</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_edit_album.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l379">
+<td class="vc_file_line_number"><a href="#l379">379</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_edit_album_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l380">
+<td class="vc_file_line_number"><a href="#l380">380</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_edit_artist.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l381">
+<td class="vc_file_line_number"><a href="#l381">381</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_edit_artist_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l382">
+<td class="vc_file_line_number"><a href="#l382">382</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_edit_catalog.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l383">
+<td class="vc_file_line_number"><a href="#l383">383</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_edit_live_stream_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l384">
+<td class="vc_file_line_number"><a href="#l384">384</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_edit_playlist_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l385">
+<td class="vc_file_line_number"><a href="#l385">385</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_edit_playlist_song_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l386">
+<td class="vc_file_line_number"><a href="#l386">386</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_edit_shout.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l387">
+<td class="vc_file_line_number"><a href="#l387">387</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_edit_song.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l388">
+<td class="vc_file_line_number"><a href="#l388">388</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_edit_song_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l389">
+<td class="vc_file_line_number"><a href="#l389">389</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_edit_user.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l390">
+<td class="vc_file_line_number"><a href="#l390">390</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_embed_xspf.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l391">
+<td class="vc_file_line_number"><a href="#l391">391</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_export.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l392">
+<td class="vc_file_line_number"><a href="#l392">392</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_flag_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l393">
+<td class="vc_file_line_number"><a href="#l393">393</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_flagged.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l394">
+<td class="vc_file_line_number"><a href="#l394">394</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_gather_art.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l395">
+<td class="vc_file_line_number"><a href="#l395">395</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_genre.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l396">
+<td class="vc_file_line_number"><a href="#l396">396</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_genres.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l397">
+<td class="vc_file_line_number"><a href="#l397">397</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_get_albumart.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l398">
+<td class="vc_file_line_number"><a href="#l398">398</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_import_playlist.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l399">
+<td class="vc_file_line_number"><a href="#l399">399</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_index.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l400">
+<td class="vc_file_line_number"><a href="#l400">400</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_install.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l401">
+<td class="vc_file_line_number"><a href="#l401">401</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_install_account.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l402">
+<td class="vc_file_line_number"><a href="#l402">402</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_install_check.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l403">
+<td class="vc_file_line_number"><a href="#l403">403</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_install_config.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l404">
+<td class="vc_file_line_number"><a href="#l404">404</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_install_lang.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l405">
+<td class="vc_file_line_number"><a href="#l405">405</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_ip_history.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l406">
+<td class="vc_file_line_number"><a href="#l406">406</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_live_stream.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l407">
+<td class="vc_file_line_number"><a href="#l407">407</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_live_stream_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l408">
+<td class="vc_file_line_number"><a href="#l408">408</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_live_streams.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l409">
+<td class="vc_file_line_number"><a href="#l409">409</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_localplay_add_instance.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l410">
+<td class="vc_file_line_number"><a href="#l410">410</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_localplay_control.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l411">
+<td class="vc_file_line_number"><a href="#l411">411</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_localplay_controllers.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l412">
+<td class="vc_file_line_number"><a href="#l412">412</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_localplay_edit_instance.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l413">
+<td class="vc_file_line_number"><a href="#l413">413</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_localplay_instances.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l414">
+<td class="vc_file_line_number"><a href="#l414">414</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_localplay_playlist.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l415">
+<td class="vc_file_line_number"><a href="#l415">415</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_localplay_status.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l416">
+<td class="vc_file_line_number"><a href="#l416">416</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_login_form.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l417">
+<td class="vc_file_line_number"><a href="#l417">417</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_lyrics.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l418">
+<td class="vc_file_line_number"><a href="#l418">418</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_mail_users.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l419">
+<td class="vc_file_line_number"><a href="#l419">419</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_manage_catalogs.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l420">
+<td class="vc_file_line_number"><a href="#l420">420</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_manage_democratic.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l421">
+<td class="vc_file_line_number"><a href="#l421">421</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_manage_shoutbox.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l422">
+<td class="vc_file_line_number"><a href="#l422">422</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_newest.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l423">
+<td class="vc_file_line_number"><a href="#l423">423</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_now_playing.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l424">
+<td class="vc_file_line_number"><a href="#l424">424</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_now_playing_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l425">
+<td class="vc_file_line_number"><a href="#l425">425</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_object_rating.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l426">
+<td class="vc_file_line_number"><a href="#l426">426</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_object_rating_static.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l427">
+<td class="vc_file_line_number"><a href="#l427">427</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_object_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l428">
+<td class="vc_file_line_number"><a href="#l428">428</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_objects.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l429">
+<td class="vc_file_line_number"><a href="#l429">429</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_playlist.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l430">
+<td class="vc_file_line_number"><a href="#l430">430</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_playlist_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l431">
+<td class="vc_file_line_number"><a href="#l431">431</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_playlist_song_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l432">
+<td class="vc_file_line_number"><a href="#l432">432</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_playlist_songs.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l433">
+<td class="vc_file_line_number"><a href="#l433">433</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_playlists.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l434">
+<td class="vc_file_line_number"><a href="#l434">434</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_playtype_switch.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l435">
+<td class="vc_file_line_number"><a href="#l435">435</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_plugins.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l436">
+<td class="vc_file_line_number"><a href="#l436">436</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_popular.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l437">
+<td class="vc_file_line_number"><a href="#l437">437</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_preference_admin.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l438">
+<td class="vc_file_line_number"><a href="#l438">438</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_preference_box.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l439">
+<td class="vc_file_line_number"><a href="#l439">439</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_preferences.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l440">
+<td class="vc_file_line_number"><a href="#l440">440</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_random.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l441">
+<td class="vc_file_line_number"><a href="#l441">441</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_random_albums.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l442">
+<td class="vc_file_line_number"><a href="#l442">442</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_random_rules.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l443">
+<td class="vc_file_line_number"><a href="#l443">443</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_recently_played.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l444">
+<td class="vc_file_line_number"><a href="#l444">444</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_registration_confirmation.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l445">
+<td class="vc_file_line_number"><a href="#l445">445</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_rename_artist.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l446">
+<td class="vc_file_line_number"><a href="#l446">446</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_run_add_catalog.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l447">
+<td class="vc_file_line_number"><a href="#l447">447</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_search.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l448">
+<td class="vc_file_line_number"><a href="#l448">448</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_search_bar.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l449">
+<td class="vc_file_line_number"><a href="#l449">449</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_search_options.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l450">
+<td class="vc_file_line_number"><a href="#l450">450</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_shout_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l451">
+<td class="vc_file_line_number"><a href="#l451">451</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_shoutbox.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l452">
+<td class="vc_file_line_number"><a href="#l452">452</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_song.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l453">
+<td class="vc_file_line_number"><a href="#l453">453</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_song_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l454">
+<td class="vc_file_line_number"><a href="#l454">454</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_songs.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l455">
+<td class="vc_file_line_number"><a href="#l455">455</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_stats.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l456">
+<td class="vc_file_line_number"><a href="#l456">456</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_stats_newest.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l457">
+<td class="vc_file_line_number"><a href="#l457">457</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_stats_popular.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l458">
+<td class="vc_file_line_number"><a href="#l458">458</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_tagcloud.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l459">
+<td class="vc_file_line_number"><a href="#l459">459</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_test.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l460">
+<td class="vc_file_line_number"><a href="#l460">460</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_test_config.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l461">
+<td class="vc_file_line_number"><a href="#l461">461</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_update_items.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l462">
+<td class="vc_file_line_number"><a href="#l462">462</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_user.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l463">
+<td class="vc_file_line_number"><a href="#l463">463</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_user_activate.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l464">
+<td class="vc_file_line_number"><a href="#l464">464</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_user_preferences.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l465">
+<td class="vc_file_line_number"><a href="#l465">465</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_user_recommendations.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l466">
+<td class="vc_file_line_number"><a href="#l466">466</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_user_registration.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l467">
+<td class="vc_file_line_number"><a href="#l467">467</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_user_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l468">
+<td class="vc_file_line_number"><a href="#l468">468</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_user_stats.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l469">
+<td class="vc_file_line_number"><a href="#l469">469</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_users.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l470">
+<td class="vc_file_line_number"><a href="#l470">470</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_verify_catalog.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l471">
+<td class="vc_file_line_number"><a href="#l471">471</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_video_row.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l472">
+<td class="vc_file_line_number"><a href="#l472">472</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_videos.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l473">
+<td class="vc_file_line_number"><a href="#l473">473</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/show_xspf_player.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l474">
+<td class="vc_file_line_number"><a href="#l474">474</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/sidebar.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l475">
+<td class="vc_file_line_number"><a href="#l475">475</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/sidebar_admin.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l476">
+<td class="vc_file_line_number"><a href="#l476">476</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/sidebar_home.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l477">
+<td class="vc_file_line_number"><a href="#l477">477</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/sidebar_localplay.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l478">
+<td class="vc_file_line_number"><a href="#l478">478</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/sidebar_modules.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l479">
+<td class="vc_file_line_number"><a href="#l479">479</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/sidebar_preferences.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l480">
+<td class="vc_file_line_number"><a href="#l480">480</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/templates/subnavbar.inc.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l481">
+<td class="vc_file_line_number"><a href="#l481">481</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/test.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l482">
+<td class="vc_file_line_number"><a href="#l482">482</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/ajax-loader.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l483">
+<td class="vc_file_line_number"><a href="#l483">483</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/ampache.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l484">
+<td class="vc_file_line_number"><a href="#l484">484</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/bg_login.jpg</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l485">
+<td class="vc_file_line_number"><a href="#l485">485</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/blank-pixel.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l486">
+<td class="vc_file_line_number"><a href="#l486">486</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/blankalbum.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l487">
+<td class="vc_file_line_number"><a href="#l487">487</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/blankalbum.jpg</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l488">
+<td class="vc_file_line_number"><a href="#l488">488</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/bottom.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l489">
+<td class="vc_file_line_number"><a href="#l489">489</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/bottomleft.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l490">
+<td class="vc_file_line_number"><a href="#l490">490</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/bottomright.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l491">
+<td class="vc_file_line_number"><a href="#l491">491</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/left.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l492">
+<td class="vc_file_line_number"><a href="#l492">492</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/right.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l493">
+<td class="vc_file_line_number"><a href="#l493">493</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/rightbar_top.jpg</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l494">
+<td class="vc_file_line_number"><a href="#l494">494</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/sidebar_top.jpg</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l495">
+<td class="vc_file_line_number"><a href="#l495">495</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/top.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l496">
+<td class="vc_file_line_number"><a href="#l496">496</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/topleft.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l497">
+<td class="vc_file_line_number"><a href="#l497">497</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/images/topright.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l498">
+<td class="vc_file_line_number"><a href="#l498">498</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/templates/default.css</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l499">
+<td class="vc_file_line_number"><a href="#l499">499</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/classic/theme.cfg.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l500">
+<td class="vc_file_line_number"><a href="#l500">500</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/ajax-loader.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l501">
+<td class="vc_file_line_number"><a href="#l501">501</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/ampache.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l502">
+<td class="vc_file_line_number"><a href="#l502">502</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/ampache_back.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l503">
+<td class="vc_file_line_number"><a href="#l503">503</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/ampache_menu.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l504">
+<td class="vc_file_line_number"><a href="#l504">504</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/back-box.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l505">
+<td class="vc_file_line_number"><a href="#l505">505</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/background.jpg</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l506">
+<td class="vc_file_line_number"><a href="#l506">506</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/blankalbum.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l507">
+<td class="vc_file_line_number"><a href="#l507">507</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/blankalbum.jpg</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l508">
+<td class="vc_file_line_number"><a href="#l508">508</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/box_bottom.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l509">
+<td class="vc_file_line_number"><a href="#l509">509</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/box_top.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l510">
+<td class="vc_file_line_number"><a href="#l510">510</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/button_back.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l511">
+<td class="vc_file_line_number"><a href="#l511">511</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/button_back2.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l512">
+<td class="vc_file_line_number"><a href="#l512">512</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/curl.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l513">
+<td class="vc_file_line_number"><a href="#l513">513</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/icons/icon_add.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l514">
+<td class="vc_file_line_number"><a href="#l514">514</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/icons/icon_admin.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l515">
+<td class="vc_file_line_number"><a href="#l515">515</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/icons/icon_all.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l516">
+<td class="vc_file_line_number"><a href="#l516">516</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/icons/icon_batch_download.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l517">
+<td class="vc_file_line_number"><a href="#l517">517</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/icons/icon_browse.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l518">
+<td class="vc_file_line_number"><a href="#l518">518</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/icons/icon_delete.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l519">
+<td class="vc_file_line_number"><a href="#l519">519</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/icons/icon_download.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l520">
+<td class="vc_file_line_number"><a href="#l520">520</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/icons/icon_edit.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l521">
+<td class="vc_file_line_number"><a href="#l521">521</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/icons/icon_home.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l522">
+<td class="vc_file_line_number"><a href="#l522">522</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/icons/icon_logout.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l523">
+<td class="vc_file_line_number"><a href="#l523">523</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/icons/icon_playlist_add.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l524">
+<td class="vc_file_line_number"><a href="#l524">524</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/icons/icon_random.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l525">
+<td class="vc_file_line_number"><a href="#l525">525</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/icons/icon_volumeup.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l526">
+<td class="vc_file_line_number"><a href="#l526">526</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/list_back-old.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l527">
+<td class="vc_file_line_number"><a href="#l527">527</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/list_back.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l528">
+<td class="vc_file_line_number"><a href="#l528">528</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/overlay.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l529">
+<td class="vc_file_line_number"><a href="#l529">529</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/puce.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l530">
+<td class="vc_file_line_number"><a href="#l530">530</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/punaise-bl.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l531">
+<td class="vc_file_line_number"><a href="#l531">531</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/punaise-br.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l532">
+<td class="vc_file_line_number"><a href="#l532">532</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/punaise-tl.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l533">
+<td class="vc_file_line_number"><a href="#l533">533</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/ratings/star_rating.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l534">
+<td class="vc_file_line_number"><a href="#l534">534</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/ratings/x.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l535">
+<td class="vc_file_line_number"><a href="#l535">535</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/ratings/x_off.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l536">
+<td class="vc_file_line_number"><a href="#l536">536</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/sort_off.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l537">
+<td class="vc_file_line_number"><a href="#l537">537</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/images/sort_on.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l538">
+<td class="vc_file_line_number"><a href="#l538">538</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/templates/default.css</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l539">
+<td class="vc_file_line_number"><a href="#l539">539</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/greysme/theme.cfg.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l540">
+<td class="vc_file_line_number"><a href="#l540">540</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/ajax-loader.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l541">
+<td class="vc_file_line_number"><a href="#l541">541</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/ampache.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l542">
+<td class="vc_file_line_number"><a href="#l542">542</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/background.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l543">
+<td class="vc_file_line_number"><a href="#l543">543</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/bg_login.jpg</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l544">
+<td class="vc_file_line_number"><a href="#l544">544</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/blank-pixel.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l545">
+<td class="vc_file_line_number"><a href="#l545">545</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/blankalbum.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l546">
+<td class="vc_file_line_number"><a href="#l546">546</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/blankalbum.jpg</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l547">
+<td class="vc_file_line_number"><a href="#l547">547</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/bottom.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l548">
+<td class="vc_file_line_number"><a href="#l548">548</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/bottomright.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l549">
+<td class="vc_file_line_number"><a href="#l549">549</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_add.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l550">
+<td class="vc_file_line_number"><a href="#l550">550</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_add_key.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l551">
+<td class="vc_file_line_number"><a href="#l551">551</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_add_user.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l552">
+<td class="vc_file_line_number"><a href="#l552">552</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_admin.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l553">
+<td class="vc_file_line_number"><a href="#l553">553</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_all.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l554">
+<td class="vc_file_line_number"><a href="#l554">554</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_batch_download.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l555">
+<td class="vc_file_line_number"><a href="#l555">555</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_browse.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l556">
+<td class="vc_file_line_number"><a href="#l556">556</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_cog.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l557">
+<td class="vc_file_line_number"><a href="#l557">557</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_delete.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l558">
+<td class="vc_file_line_number"><a href="#l558">558</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_disable.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l559">
+<td class="vc_file_line_number"><a href="#l559">559</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_download.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l560">
+<td class="vc_file_line_number"><a href="#l560">560</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_edit.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l561">
+<td class="vc_file_line_number"><a href="#l561">561</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_enable.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l562">
+<td class="vc_file_line_number"><a href="#l562">562</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_feed.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l563">
+<td class="vc_file_line_number"><a href="#l563">563</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_home.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l564">
+<td class="vc_file_line_number"><a href="#l564">564</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_link.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l565">
+<td class="vc_file_line_number"><a href="#l565">565</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_logout.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l566">
+<td class="vc_file_line_number"><a href="#l566">566</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_next.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l567">
+<td class="vc_file_line_number"><a href="#l567">567</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_pause.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l568">
+<td class="vc_file_line_number"><a href="#l568">568</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_play.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l569">
+<td class="vc_file_line_number"><a href="#l569">569</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_playlist_add.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l570">
+<td class="vc_file_line_number"><a href="#l570">570</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_plugin.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l571">
+<td class="vc_file_line_number"><a href="#l571">571</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_preferences.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l572">
+<td class="vc_file_line_number"><a href="#l572">572</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_prev.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l573">
+<td class="vc_file_line_number"><a href="#l573">573</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_random.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l574">
+<td class="vc_file_line_number"><a href="#l574">574</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_server_lightning.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l575">
+<td class="vc_file_line_number"><a href="#l575">575</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_stop.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l576">
+<td class="vc_file_line_number"><a href="#l576">576</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_view.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l577">
+<td class="vc_file_line_number"><a href="#l577">577</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_volumedn.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l578">
+<td class="vc_file_line_number"><a href="#l578">578</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_volumemute.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l579">
+<td class="vc_file_line_number"><a href="#l579">579</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/icons/icon_volumeup.png</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l580">
+<td class="vc_file_line_number"><a href="#l580">580</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/ratings/star_rating.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l581">
+<td class="vc_file_line_number"><a href="#l581">581</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/ratings/x.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l582">
+<td class="vc_file_line_number"><a href="#l582">582</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/ratings/x_off.gif</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l583">
+<td class="vc_file_line_number"><a href="#l583">583</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/images/rightbar_top.jpg</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l584">
+<td class="vc_file_line_number"><a href="#l584">584</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/templates/default.css</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l585">
+<td class="vc_file_line_number"><a href="#l585">585</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/themes/penguin/theme.cfg.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l586">
+<td class="vc_file_line_number"><a href="#l586">586</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/update.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l587">
+<td class="vc_file_line_number"><a href="#l587">587</a></td>
+
+<td class="vc_file_line_text">%%WWWDIR%%/util.php</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l588">
+<td class="vc_file_line_number"><a href="#l588">588</a></td>
+
+<td class="vc_file_line_text">@(root,wheel,444) man/man1/ampache.1.gz</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l589">
+<td class="vc_file_line_number"><a href="#l589">589</a></td>
+
+<td class="vc_file_line_text">@owner root</td>
+</tr>
+
+
+
+
+<tr class="vc_row_odd" id="l590">
+<td class="vc_file_line_number"><a href="#l590">590</a></td>
+
+<td class="vc_file_line_text">@group wheel</td>
+</tr>
+
+
+</table>
+</div>
+
+
+
+<hr/>
+<div class="vc_properties">
+<h2>Properties</h2>
+<table cellspacing="1" cellpadding="2" class="auto">
+<thead>
+<tr>
+<th class="vc_header_sort">Name</th>
+<th class="vc_header">Value</th>
+</tr>
+</thead>
+<tbody>
+
+<tr class="vc_row_even">
+<td><strong>fbsd:nokeywords</strong></td>
+
+<td style="white-space: pre;">yes
+</td>
+
+</tr>
+
+<tr class="vc_row_odd">
+<td><strong>svn:eol-style</strong></td>
+
+<td style="white-space: pre;">native
+</td>
+
+</tr>
+
+<tr class="vc_row_even">
+<td><strong>svn:mime-type</strong></td>
+
+<td style="white-space: pre;">text/plain
+</td>
+
+</tr>
+
+</tbody>
+</table>
+</div>
+
+
+
+<hr />
+<table>
+<tr>
+<td>&nbsp;</td>
+<td style="text-align: right;"><strong><a href="/*docroot*/help_rootview.html">ViewVC Help</a></strong></td>
+</tr>
+<tr>
+<td>Powered by <a href="http://viewvc.tigris.org/">ViewVC 1.1.24</a></td>
+<td style="text-align: right;">&nbsp;</td>
+</tr>
+</table>
+</body>
+</html>
+
