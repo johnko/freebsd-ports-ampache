@@ -43,7 +43,7 @@ do-install:
 .for doc in ${PORTDOCS}
 	${INSTALL_DATA} ${WRKSRC}/${doc} ${STAGEDIR}${DOCSDIR}
 .endfor
-	(cd ${WRKSRC} && composer install --prefer-source --no-interaction)
 	(cd ${WRKSRC} && ${COPYTREE_SHARE} \* ${STAGEDIR}${WWWDIR} "! -name *.orig")
+	(cd ${STAGEDIR}${WWWDIR} && composer install --prefer-source --no-interaction)
 
 .include <bsd.port.mk>
